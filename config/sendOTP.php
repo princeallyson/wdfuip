@@ -1,5 +1,5 @@
 <?php
-$apiKey = '590c6c4421031d422bb2b442a33d76b0';
+$apiKey = '';
 $phoneNumber = preg_replace('/\s+/', '', $_POST['phoneNumber']);
 $message = 'To verify that this is you,';
 $senderName = 'PUPGSREO';
