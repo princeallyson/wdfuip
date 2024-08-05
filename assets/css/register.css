@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  background-image: url('../img/bg.jpg'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+  overflow: hidden; /* Optional: This hides the overflow content */
+  position: relative;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+main .formBox {
+    width: 80%;
+	  height: 100%;
+    background-color: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main .formBox .signin {
+    width: 80%;
+}
+
+main img {
+    height: 175px;
+}
+
+.btn {
+    background-color: #800000;
+    color: #fff;;
+}
+
+.btn:hover {
+    background-color: #d9a31c;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
